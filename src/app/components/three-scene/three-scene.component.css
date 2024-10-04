@@ -1,0 +1,13 @@
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  p {
+    margin: 0;
+  }
+  .info-render {
+    color: white;
+    position: absolute;
+    padding: 15px;
+  }

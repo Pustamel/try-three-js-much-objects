@@ -1,0 +1,16 @@
+<input
+  type="range"
+  id="count-lines"
+  min="1000"
+  max="1000000"
+  [value]="currentRange()"
+  (change)="handleRange($event)"
+/>
+<p>current renge: {{ currentRange() }}</p>
+
+<div #canvas>
+  <div class="info-render">
+    <p>triangles: {{ infoRender().triangles }}</p>
+    <p>cubes: {{ cubes?.count }}</p>
+  </div>
+</div>
